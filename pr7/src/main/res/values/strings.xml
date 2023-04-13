@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pr7</string>
+    <string name="ura">Флаг Колумбии!</string>
+    <string name="bra">Флаг Бразилии!</string>
+    <string name="chi">Флаг Чили!</string>
+    <string name="arg">Флаг Аргентины!</string>
+    <string name="urg">Флаг Уругвая!</string>
+
+</resources>
