@@ -3,8 +3,6 @@ package ru.startandroid.malysheva.pr8;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
@@ -13,12 +11,10 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import java.util.ResourceBundle;
-
-public class MainActivity extends implements OnClickListener {
+public class MainActivity extends AppCompatActivity {
     private Button bgButton;
     public RelativeLayout relativeLayout;
-    Context context = MainActivity.this;
+    MainActivity context = MainActivity.this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

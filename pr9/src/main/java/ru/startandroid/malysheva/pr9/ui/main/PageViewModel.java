@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel;
 public class PageViewModel extends ViewModel {
 
     private MutableLiveData<Integer> mIndex = new MutableLiveData<>();
-    private LiveData<String> mText = Transformations.map(mIndex, new Function<Integer, String>() {
+    private LiveData<String> mText = (LiveData<String>) Transformations.ma (mIndex, new Function<Integer, String>() {
         @Override
         public String apply(Integer input) {
             return "Hello world from section: " + input;

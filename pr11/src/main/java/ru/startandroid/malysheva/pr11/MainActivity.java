@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView view_weather;
     EditText search;
     FloatingActionButton search_floating;
+    @Suppresslint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -14,8 +14,8 @@ public class FirstActivity extends Fragment
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @NonNull ViewGroup container,
-                             @Nullable Bundle savedInstanceState)
-    {
+                             @Nullable Bundle savedInstanceState) {
+        // return super.onCreateView(inflater, container, savedInstanceState);
         return inflater.inflate(R.layout.first_main, container, false);
     }
 }
